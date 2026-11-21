@@ -1,0 +1,29 @@
+/* Color de fondo de la barra de navegación */
+.navbar-arte {
+    background-color: #1E3C2A;
+}
+
+/* Convierte el nombre de la página a mayúsculas */
+.navbar-brand {
+    text-transform: uppercase;
+}
+
+/* Color blanco para los enlaces de navegación */
+.navbar-arte .navbar-brand,
+.navbar-arte .nav-link,
+.navbar-arte .nav-link.active {
+    color: white;
+}
+
+/* Subrayado al pasar el cursor sobre los enlaces */
+.navbar-arte .navbar-brand:hover,
+.navbar-arte .nav-link:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+/*6.-Al botón que aparece del lado derecho al redimensionar la página (modo responsivo) ponlo de
+color blanco. */
+.navbar-arte .navbar-toggler {
+    background-color: white;
+}
