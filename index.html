@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="es">
 
@@ -7,61 +6,130 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Campus Jalpa - Arte y Cultura</title>
     <!-- Bootstrap 5.3 -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
 
-<!-- Estilos personalizados -->
-<link rel="stylesheet" href="css/estilos.css">
+    <!-- Estilos personalizados -->
+    <link rel="stylesheet" href="css/estilos.css">
 </head>
 
-<body>S
-<!-- barra de navegacion -->
-<nav class="navbar navbar-expand-lg navbar-arte">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#" style="font-weight: bold;">Campus Jalpa Arte y Cultura</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Inicio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Colección</a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
+<body>
+    <!-- barra de navegacion -->
+    <nav class="navbar navbar-expand-lg navbar-arte">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#" style="font-weight: bold;">Campus Jalpa Arte y Cultura</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Colección</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
-  <!-- Carrusel -->
-  <div id="carouselExample" class="carousel slide">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="imagenes/pintura.jpg" class="d-block w-100" alt="Colección de pinturas">
+    <!-- Carrusel -->
+    <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="imagenes/pintura.jpg" class="d-block w-100" alt="Colección de pinturas">
+            </div>
+            <div class="carousel-item">
+                <img src="imagenes/artesanias.jpg" class="d-block w-100" alt="Colección de artesanías">
+            </div>
+            <div class="carousel-item">
+                <img src="imagenes/patrimonio.jpg" class="d-block w-100" alt="Colección de patrimonios">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
     </div>
-    <div class="carousel-item">
-      <img src="imagenes/artesanias.jpg" class="d-block w-100" alt="Colección de artesanías">
-    </div>
-    <div class="carousel-item">
-      <img src="imagenes/patrimonio.jpg" class="d-block w-100" alt="Colección de patrimonios">
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
 
     <main>
+        <!-- Sección de colección de arte -->
+        <section class="container" id="coleccion">
+            <h1>Explora la colección de arte</h1>
+            <p>Descubre obras y artistas de distintas épocas</p>
+            <hr>
+            <div class="row">
+
+                <!-- Primera columna -->
+                <div class="col-12 col-md-4">
+
+                    <!-- Tarjeta de obra de arte-->
+                    <div class="card h-100" style="width: 90%;">
+                        <img src="imagenes/bisonte-de-altamira.JPG" class="card-img-top" alt="Bisonte de Altamira">
+                        <div class="card-body">
+                            <h3 class="card-title">Bisonte del techo de la Gran Sala de la cueva de Altamira</h3>
+                            <p class="card-text">
+                                Pintura rupestre prehistórica que representa un bisonte,
+                                localizada en la cueva de Altamira, España.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <!-- Segunda columna -->
+                <div class="col-12 col-md-4">
+
+                    <!-- Tarjeta de La creación del hombre -->
+                    <div class="card h-100" style="width: 90%;">
+                        <img src="imagenes/la-creacion-del-hombre.JPG" class="card-img-top"
+                            alt="La creación del hombre">
+
+                        <div class="card-body">
+                            <h3 class="card-title">La creación del hombre</h3>
+                            <p class="card-text">
+                                Obra que representa la creación del ser humano,
+                                destacando la conexión entre Dios y el hombre.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+                <!-- Tercera columna -->
+                <div class="col-12 col-md-4">
+
+                    <!-- Tarjeta de Cristo muerto -->
+                    <div class="card h-100" style="width: 90%;">
+                        <img src="imagenes/cristo-muerto.JPG" class="card-img-top" alt="Cristo muerto">
+
+                        <div class="card-body">
+                            <h3 class="card-title">Cristo muerto</h3>
+                            <p class="card-text">
+                                Obra de arte que representa a Cristo después
+                                de su crucifixión.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </section>
+
 
     </main>
     <!-- JavaScript de Bootstrap 5.3 -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
 

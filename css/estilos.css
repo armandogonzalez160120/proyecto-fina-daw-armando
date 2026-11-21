@@ -27,3 +27,8 @@ color blanco. */
 .navbar-arte .navbar-toggler {
     background-color: white;
 }
+
+/* Tamaño de los títulos de las tarjetas */
+.card-title {
+    font-size: 18px;
+}
