@@ -58,6 +58,48 @@
     </div>
 
     <main>
+        <!-- Sección del formulario de búsqueda -->
+        <section class="container">
+
+            <!-- Panel de búsqueda -->
+            <div class="panel-busqueda">
+
+                <!-- Formulario de búsqueda -->
+                <form id="formBusqueda">
+
+                    <label for="cadenaBusqueda">Buscar Por:</label>
+
+                    <input type="text" id="cadenaBusqueda" class="form-control" required>
+
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="criterio" id="titulo" value="q" checked>
+                        <label class="form-check-label" for="titulo">Título</label>
+                    </div>
+
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="criterio" id="pintura" value="tipo">
+                        <label class="form-check-label" for="pintura">Pintura</label>
+                    </div>
+
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="criterio" id="anio" value="anio">
+                        <label class="form-check-label" for="anio">Año</label>
+                    </div>
+
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="criterio" id="movimiento" value="m">
+                        <label class="form-check-label" for="movimiento">Movimiento</label>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">
+                        Buscar
+                    </button>
+
+                </form>
+
+            </div>
+
+        </section>
         <!-- Sección de colección de arte -->
         <section class="container" id="coleccion">
             <h1>Explora la colección de arte</h1>
