@@ -32,3 +32,15 @@ color blanco. */
 .card-title {
     font-size: 18px;
 }
+
+/* Estilos del pie de página */
+footer {
+    background-color: #1E3C2A;
+    padding: 25px;
+}
+
+footer p {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
